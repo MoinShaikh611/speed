@@ -1,0 +1,26 @@
+.travel-images{
+    height: 100%;
+    max-width: 100%;
+    position: absolute;
+    border-radius: 10px;
+    filter: brightness(50%);
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+
+}
+
+.travel-images:hover{
+    filter: brightness(100%);
+}
+@media screen and (max-width:868px) {
+    .travel-images{
+        filter: brightness(100%);
+    }
+}
+
+/* hover on mobile based screen */
+/* @media(hover: hover) and (pointer: fine) {
+    .travel-images:hover{
+        filter: brightness(100%);
+    }
+} */
